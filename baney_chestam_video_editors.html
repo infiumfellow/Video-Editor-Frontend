@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>✨🔥 BANEY CHESTAM VIDEO EDITORS 🔥✨ | Prop. G PREM | Madanapalle</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@700;800&family=Comic+Neue:wght@700&display=swap');
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    font-family: 'Comic Neue', cursive;
+    background: linear-gradient(135deg, #ff0080, #7928ca, #ff8a00, #00c3ff);
+    background-size: 400% 400%;
+    animation: bgshift 8s ease infinite;
+    color: #fff;
+    overflow-x: hidden;
+  }
+
+  @keyframes bgshift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+
+  .marquee-top, .marquee-bottom {
+    background: #000;
+    color: #ffd700;
+    font-weight: 800;
+    padding: 6px 0;
+    white-space: nowrap;
+    overflow: hidden;
+    border-top: 4px dashed #ff0080;
+    border-bottom: 4px dashed #ff0080;
+    font-size: 18px;
+  }
+  .marquee-top span, .marquee-bottom span {
+    display: inline-block;
+    padding-left: 100%;
+    animation: scroll 14s linear infinite;
+  }
+  @keyframes scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-100%); }
+  }
+
+  .glitter-border {
+    border: 6px dotted #fff200;
+    box-shadow: 0 0 25px #ff00c8, 0 0 50px #00ffe1 inset;
+  }
+
+  header {
+    text-align: center;
+    padding: 30px 15px 10px;
+  }
+
+  h1.brand {
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 48px;
+    margin: 10px 0 0;
+    text-shadow: 3px 3px 0 #000, 0 0 20px #ffea00, -2px -2px 0 #00fff0;
+    animation: blink 1.4s infinite, wiggle 2.5s ease-in-out infinite;
+    letter-spacing: 1px;
+  }
+  @keyframes blink { 0%,49%{opacity:1;} 50%,100%{opacity:0.55;} }
+  @keyframes wiggle {
+    0%,100% { transform: rotate(-1deg); }
+    50% { transform: rotate(1.5deg); }
+  }
+
+  .tagline {
+    font-size: 20px;
+    background: #000;
+    display: inline-block;
+    padding: 6px 18px;
+    border-radius: 20px;
+    margin-top: 12px;
+    color: #00ff88;
+    box-shadow: 0 0 15px #00ff88;
+  }
+
+  .photo-wrap {
+    text-align: center;
+    margin: 25px auto;
+  }
+  .photo-wrap img {
+    width: 230px;
+    border-radius: 14px;
+    border: 8px solid gold;
+    box-shadow: 0 0 30px rgba(255,215,0,0.9), 0 0 60px rgba(255,0,150,0.6);
+    animation: floaty 3s ease-in-out infinite;
+  }
+  @keyframes floaty {
+    0%,100% { transform: translateY(0px) rotate(-1.5deg); }
+    50% { transform: translateY(-14px) rotate(1.5deg); }
+  }
+  .stamp {
+    display: inline-block;
+    margin-top: -20px;
+    background: red;
+    color: #fff;
+    font-weight: 800;
+    padding: 6px 16px;
+    border-radius: 50px;
+    transform: rotate(-8deg);
+    border: 3px solid #fff;
+    font-size: 15px;
+  }
+
+  section {
+    max-width: 650px;
+    margin: 25px auto;
+    background: rgba(0,0,0,0.55);
+    padding: 20px 22px;
+    border-radius: 18px;
+  }
+
+  h2 {
+    color: #fff200;
+    text-shadow: 2px 2px #000;
+    font-size: 26px;
+    border-bottom: 3px dashed #ff5ec4;
+    padding-bottom: 6px;
+  }
+
+  ul.services li {
+    margin: 10px 0;
+    font-size: 17px;
+    list-style: none;
+    background: rgba(255,255,255,0.1);
+    padding: 8px 12px;
+    border-radius: 10px;
+    border-left: 5px solid #00ffcc;
+  }
+  ul.services li b { color: #ffd166; }
+
+  .rate-card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    justify-content: center;
+  }
+  .rate-box {
+    background: linear-gradient(135deg,#ffdd00,#ff6a00);
+    color: #000;
+    font-weight: 800;
+    padding: 14px;
+    border-radius: 12px;
+    width: 140px;
+    text-align: center;
+    border: 3px solid #000;
+    transform: rotate(-2deg);
+  }
+  .rate-box:nth-child(even) { transform: rotate(2deg); }
+  .rate-box small { display:block; font-weight: 400; font-size: 12px; margin-top:4px; }
+
+  .review {
+    background: #fff;
+    color: #000;
+    border-radius: 12px;
+    padding: 12px 16px;
+    margin: 12px 0;
+    position: relative;
+    font-size: 15px;
+  }
+  .review b { color: #7928ca; }
+  .stars { color: #ff9800; }
+
+  .contact-box {
+    text-align: center;
+    background: #000;
+    border-radius: 16px;
+    padding: 20px;
+  }
+  .contact-box a.wa {
+    display: inline-block;
+    background: #25d366;
+    color: #000;
+    font-weight: 800;
+    padding: 12px 26px;
+    border-radius: 40px;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 10px;
+    animation: pulse 1.3s infinite;
+    box-shadow: 0 0 20px #25d366;
+  }
+  @keyframes pulse {
+    0%,100% { transform: scale(1); }
+    50% { transform: scale(1.08); }
+  }
+
+  .badge-row {
+    display:flex;
+    justify-content:center;
+    gap:10px;
+    flex-wrap:wrap;
+    margin-top:14px;
+  }
+  .badge {
+    background:#fff;
+    color:#000;
+    font-size:12px;
+    font-weight:800;
+    padding:5px 10px;
+    border-radius:6px;
+    transform: rotate(-3deg);
+  }
+
+  footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 13px;
+    color: #ffe680;
+  }
+
+  .sparkle {
+    animation: spin 4s linear infinite;
+    display: inline-block;
+  }
+  @keyframes spin { 100% { transform: rotate(360deg); } }
+</style>
+</head>
+<body>
+
+<div class="marquee-top"><span>🔥🔥 GRAND OPENING OFFER 🔥🔥 &nbsp; BANEY CHESTAM VIDEO EDITORS &nbsp; 🎬 REELS • WEDDING • BIRTHDAY • YOUTUBE SHORTS 🎬 &nbsp; ఒక్క కాల్ చేయండి, జీవితం మారిపోతుంది 📞 &nbsp; 🔥🔥 100% NO GUARANTEE 🔥🔥 &nbsp; </span></div>
+
+<header>
+  <h1 class="brand">✨🎬 BANEY CHESTAM VIDEO EDITORS 🎬✨</h1>
+  <div class="tagline">"Mee Video ni Baney Chesthamu... Life ni Kadu 😎"</div>
+</header>
+
+<div class="photo-wrap">
+  <img src="prem_photo.png" alt="Proprietor G Prem" class="glitter-border">
+  <br>
+  <span class="stamp">⭐ CEO & FOUNDER ⭐</span>
+</div>
+
+<section>
+  <h2>👑 Proprietor Gారు గురించి</h2>
+  <p style="font-size:16px; line-height:1.6;">
+  Introducing the one, the only, the LEGEND of Madanapalle video editing scene —
+  <b>Sri G. PREM garu</b> 🙏. Full-u fashion-u, full-u attitude-u, kaani laptop open cheste
+  render bar chusi tea thagi vasthadu ☕😂. Ee ammayi photo lo chూడandi ready ga
+  cargo pant + wrist watch tho "main character energy" tho nilabaddadu 💪🔥.
+  Client "బాస్ ఎప్పుడు ఇస్తావ్ వీడియో" ani adigithe "రేపే బాస్ 🙏" ane dialogue
+  1997 nunchi patiently deliver chestunnadu.
+  </p>
+</section>
+
+<section>
+  <h2>🛠️ Mana Services (Guaranteed-u Delay-u)</h2>
+  <ul class="services">
+    <li><b>Wedding Video Editing</b> — 6 months lo ready, engagement lopey chusthe better 💍⏳</li>
+    <li><b>Birthday Reels</b> — Full filter, full glow, original face missing guarantee 🌟</li>
+    <li><b>YouTube Shorts</b> — "Trending" ani chepthadu, 12 views vasthayi mostly friends only 📉</li>
+    <li><b>Color Grading</b> — Bro sets EVERYTHING orange & teal, no exceptions 🍊🌊</li>
+    <li><b>Transition Effects</b> — Same 1 whoosh sound, copy-paste chesi 200 times 🌀</li>
+    <li><b>WiFi Buffering Consultation</b> — Free-u, anyway rendering 3 hours padutundi 📶</li>
+  </ul>
+</section>
+
+<section>
+  <h2>💰 Rate Card (Negotiable ante negotiable)</h2>
+  <div class="rate-card">
+    <div class="rate-box">₹500 <small>1 min reel<br>(delivery: "eventually")</small></div>
+    <div class="rate-box">₹1500 <small>Full wedding<br>(delivery: next generation)</small></div>
+    <div class="rate-box">FREE <small>if ur his friend<br>(delivery: NEVER 😂)</small></div>
+  </div>
+</section>
+
+<section>
+  <h2>🌟 Customer Reviews</h2>
+  <div class="review">
+    <span class="stars">★★☆☆☆</span><br>
+    "Prem gaadiki video icchi 3 nelalu ayyindi, ippudu ChatGPT ki adిగా అడుగుతున్నాడు ela cheyalo ani 😂" <br><b>— Ravi, Madanapalle</b>
+  </div>
+  <div class="review">
+    <span class="stars">★★★★★</span><br>
+    "Bro editing chala baagundi, kaani naa engagement video lo groom face missing, don't ask why 💀" <br><b>— Sunitha</b>
+  </div>
+  <div class="review">
+    <span class="stars">★★★☆☆</span><br>
+    "Deadline ki icchadu... next birthday deadline ki 🎂" <br><b>— Anonymous, obviously</b>
+  </div>
+</section>
+
+<section class="contact-box">
+  <h2 style="border:none;">📞 Contact Cheyandi (If brave enough)</h2>
+  <p>Prop: <b>G PREM</b><br>Address: Madanapalle, Chittoor Dist.</p>
+  <p>Timings: 24/7 online kaani reply 3 days late 🕐</p>
+  <a class="wa" href="#">💬 WhatsApp Cheyandi (Seen-u Guaranteed-u)</a>
+  <div class="badge-row">
+    <span class="badge">🏆 NO.1 IN HIS OWN MIND</span>
+    <span class="badge">✅ TRUSTED BY NOBODY OFFICIALLY</span>
+    <span class="badge">🎖️ CHITTOOR PRIDE</span>
+  </div>
+</section>
+
+<div class="marquee-bottom"><span>😂 THIS SITE IS 100% JOKE-U ONLY, MADE BY BEST FRIENDS FOR FUN 😂 &nbsp; PREM WE LOVE YOU BRO 🎬❤️ &nbsp; MEE VIDEO EDITING TALENT REAL-U, IDI JUST MASTHI 🔥 &nbsp; </span></div>
+
+<footer>
+  <span class="sparkle">✨</span> Made with love (and full roast) by your friends <span class="sparkle">✨</span><br>
+  © Baney Chestam Video Editors — "Kaani Deliver Chestamu ani Evaru Cheppledu 😂"
+</footer>
+
+</body>
+</html>
